@@ -1,0 +1,102 @@
+{
+  "name": "quantumchain",
+  "version": "1.0.0",
+  "description": "A high-tech blockchain platform for decentralized applications and smart contracts.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "build": "webpack --config webpack.config.js",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prettify": "prettier --write '**/*.{js,json,md}'",
+    "deploy": "bash scripts/deploy.sh",
+    "performance": "artillery run src/tests/e2e/performance.test.yml",
+    "security": "zap-cli quick-scan --self-contained --start-options '-port 8080' http://localhost:3000"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "jsonwebtoken": "^8.5.1",
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "supertest": "^6.1.0",
+    "artillery": "^2.0.0",
+    "winston": "^3.3.3",
+    "node-cache": "^5.1.2",
+    "express-rate-limit": "^5.2.6",
+    "validator": "^13.1.1",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.0",
+    "eslint": "^7.14.0",
+    "prettier": "^2.2.1",
+    "nodemon": "^2.0.7",
+    "webpack": "^5.10.0",
+    "webpack-cli": "^4.2.0",
+    "babel-loader": "^8.2.2",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-preset-env": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KOSASIH/quantumchain.git"
+  },
+  "keywords": [
+    "blockchain",
+    "decentralized",
+    "smart contracts",
+    "quantum computing",
+    "dapps"
+  ],
+  "author": "KOSASIH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KOSASIH/quantumchain/issues"
+  },
+  "homepage": "https://github.com/KOSASIH/quantumchain#readme",
+  "config": {
+    "artillery": {
+      "target": "http://localhost:3000",
+      "phases": [
+        {
+          "duration": 60,
+          "arrivalRate": 5
+        }
+      ]
+    }
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 12
+    },
+    "rules": {
+      "no-console": "warn",
+      "indent": ["error", 4],
+      "linebreak-style": ["error", "unix"],
+      "quotes": ["error", "single"],
+      "semi": ["error", "always"]
+    }
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "tabWidth": 4
+  }
+}
