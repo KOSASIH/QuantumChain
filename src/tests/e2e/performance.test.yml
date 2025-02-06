@@ -1,0 +1,17 @@
+# src/tests/e2e/performance.test.yml
+
+config:
+  target: 'http://localhost:3000' # Adjust the target URL
+  phases:
+    - duration: 60
+      arrivalRate: 5 # 5 users per second
+
+scenarios:
+  - flow:
+      - get:
+          url: "/api/items" # Adjust the endpoint as necessary
+      - post:
+          url: "/api/items"
+          json:
+            name: "Performance Item"
+            price: 100
