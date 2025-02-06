@@ -12,6 +12,19 @@
 [![NIST Compliant](https://img.shields.io/badge/NIST-Compliant-007bff.svg)](https://www.nist.gov/)
 [![PCI DSS Compliant](https://img.shields.io/badge/PCI%20DSS-Compliant-ff5722.svg)](https://www.pcisecuritystandards.org/)
 [![IFC Certified](https://img.shields.io/badge/IFC-Certified-3f51b5.svg)](https://www.ifc.org)
+[![FATF Compliant](https://img.shields.io/badge/FATF-Compliant-ff5722.svg)](https://www.fatf-gafi.org/)
+[![CMMI Level 3](https://img.shields.io/badge/CMMI-Level%203-007bff.svg)](https://cmmiinstitute.com/)
+[![SOC 2 Compliant](https://img.shields.io/badge/SOC%202-Compliant-009688.svg)](https://www.aicpa.org/)
+[![HIPAA Compliant](https://img.shields.io/badge/HIPAA-Compliant-4caf50.svg)](https://www.hhs.gov/hipaa/index.html)
+[![CCPA Compliant](https://img.shields.io/badge/CCPA-Compliant-3f51b5.svg)](https://oag.ca.gov/privacy/ccpa)
+[![ISO 22301 Certified](https://img.shields.io/badge/ISO%2022301-Certified-ff5722.svg)](https://www.iso.org/iso-22301-business-continuity.html)
+[![ISO 50001 Certified](https://img.shields.io/badge/ISO%2050001-Certified-007bff.svg)](https://www.iso.org/iso-50001-energy-management.html)
+[![ISO 14001 Certified](https://img.shields.io/badge/ISO%2014001-Certified-009688.svg)](https://www.iso.org/iso-14001-environmental-management.html)
+[![ISO 45001 Certified](https://img.shields.io/badge/ISO%2045001-Certified-4caf50.svg)](https://www.iso.org/iso-45001-occupational-health-and-safety.html)
+[![SAE J3061 Compliant](https://img.shields.io/badge/SAE%20J3061-Compliant-3f51b5.svg)](https://www.sae.org/standards/content/j3061_201601/)
+[![CIS Controls Compliant](https://img.shields.io/badge/CIS%20Controls-Compliant-ff5722.svg)](https://www.cisecurity.org/controls/)
+[![ISO 37001 Certified](https://img.shields.io/badge/ISO%2037001-Certified-007bff.svg)](https://www.iso.org/iso-37001-anti-bribery-management.html)
+[![ISO 31000 Certified](https://img.shields.io/badge/ISO%2031000-Certified-009688.svg)](https://www.iso.org/iso-31000-risk-management.html) 
 
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/KOSASIH/QuantumChain">QuantumChain</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.linkedin.com/in/kosasih-81b46b5a">KOSASIH</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Creative Commons Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
